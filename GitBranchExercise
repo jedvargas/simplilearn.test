@@ -1,0 +1,44 @@
+  688  git branch
+  689  git branch branch 2
+  690  git branch branch2
+  691  git branch
+  692  git branch checkout branch2
+  693  git branch 
+  694  git checkout branch branch2
+  695  git checkout branch2
+  696  git checkout
+  697  touch f2.1
+  698  git add .
+  699  git commit -m "c2.1"
+  700  touch f2.2
+  701  git add .
+  702  git commit -m "c2.2"
+  703  git branch
+  704  git branch branch 2.2
+  705  git branch branch2.2
+  706  git branch
+  707  touch f2.3
+  708  git add .
+  709  git commit -m "c2.3"
+  710  git checkout branch2.2
+  711  git branch
+  712  touch f2.2.1
+  713  git add .
+  714  git commit -m "c2.2.1"
+  715  touch f2.2.2
+  716  git add .
+  717  git commit -m "c2.2.2"
+  718  git branch
+  719  git checkout branch 2
+  720  git checkout branch2
+  721  git branch
+  722  git merge branch 2.2
+  723  git merge branch2.2
+  724  git branch
+  725  git checkout master
+  726  git branch
+  727  touch file-master
+  728  git add .
+  729  git commit -m "c1.1"
+  730  git merge branch2
+  731  git log --oneline --graph
